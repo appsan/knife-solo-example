@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[nginx]",
+	"recipe[git]",
+	"recipe[python]",
+	"recipe[simple-news-aggregator]"
+  ]
+}
+
